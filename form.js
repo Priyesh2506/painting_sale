@@ -1,3 +1,15 @@
+function amount1(){
+  var x = document.getElementById("img1").innerHTML;
+  document.getElementById("img1").innerHTML="Sold @ $20";
+}
+function amount2(){
+  var y = document.getElementById("img2").innerHTML;
+  document.getElementById("img2").innerHTML="Sold @ $25";
+}
+function amount3(){
+  var z = document.getElementById("img3").innerHTML;
+  document.getElementById("img3").innerHTML="Sold @ $35";
+}
 
 function display() {
   var x = document.getElementById("fname").value;
